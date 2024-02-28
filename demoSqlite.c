@@ -8,6 +8,7 @@ int main()
     /* 打开数据库 */
     int ret = sqlite3_open("test.db", &mydb);
 
+    
     if (ret != SQLITE_OK)
     {
         perror("open error");
